@@ -40,44 +40,44 @@ Asa will be responsible for preparing the dataset for the pipeline, creating vis
 
 Connor will be responsible for implementing the feature extraction method, implementing the RF regressor, and writing the ISMIR paper.
 
-Connor
-Objective: Write ISMIR Paper
-PI1: Abstract (Expected)
-PI2: Methods (Expected)
-PI3: Visualizations (Expected)
-PI4: Results (Expected)
-PI5: Discussion (Expected)
+Connor  
+Objective: Write ISMIR Paper  
+PI1: Abstract (Expected)  
+PI2: Methods (Expected)  
+PI3: Visualizations (Expected)  
+PI4: Results (Expected)  
+PI5: Discussion (Expected)  
 
 
-Objective: CNN Comparison with RF Regressor
-PI1 (Basic): Feature Extraction (Zero Crossing Rate via Librosa) (Advanced) 
-PI2 (Expected): Define and train RF Regressor model using Scikit-learn 
-PI3 (Advanced): Tune hyperparameters via Optuna
-PI4 (Advanced): K-fold cross-validation 
-PI5 (Expected): Implement same evaluation metrics as NN 
+Objective: CNN Comparison with RF Regressor    
+PI1 (Basic): Feature Extraction (Zero Crossing Rate via Librosa) (Advanced)     
+PI2 (Expected): Define and train RF Regressor model using Scikit-learn     
+PI3 (Advanced): Tune hyperparameters via Optuna    
+PI4 (Advanced): K-fold cross-validation     
+PI5 (Expected): Implement same evaluation metrics as NN     
 
-Asa
-Objective: Prepare GiantSteps dataset
-PI1: Load GiantSteps audio files (Basic)
-PI2: Load GiantSteps tempo annotations (Basic) 
-PI3: Combine audio + tempo annotations into dict (data + label) (Expected)
-PI4: Normalize audio (sampling rate, trim length to 120s) (Expected)
-PI5: Identify and handle missing data (Expected)
+Asa  
+Objective: Prepare GiantSteps dataset  
+PI1: Load GiantSteps audio files (Basic)  
+PI2: Load GiantSteps tempo annotations (Basic)   
+PI3: Combine audio + tempo annotations into dict (data + label) (Expected)  
+PI4: Normalize audio (sampling rate, trim length to 120s) (Expected)  
+PI5: Identify and handle missing data (Expected)  
 
-Objective: Visualization and Interpretability
-PI1 (Basic): Plot predicted vs. ground truth BPM for test tracks
-PI2 (Basic): Plot error histograms and octave error distributions
-PI3 (Expected): Visualize model learning curves and validation metrics over epochs
-PI4 (Expected): Visualize feature importance (e.g., via RF or activation maps in CNN)
-PI5 (Advanced): Include all visualizations in ISMIR-ready figures with clear captions and analysis
+Objective: Visualization and Interpretability  
+PI1 (Basic): Plot predicted vs. ground truth BPM for test tracks  
+PI2 (Basic): Plot error histograms and octave error distributions  
+PI3 (Expected): Visualize model learning curves and validation metrics over epochs  
+PI4 (Expected): Visualize feature importance (e.g., via RF or activation maps in CNN)  
+PI5 (Advanced): Include all visualizations in ISMIR-ready figures with clear captions and analysis  
 
-Dylan
-Objective: Track training and evaluation results systematically
-PI1 (Basic): Log model loss and accuracy per epoch
-PI2 (Basic): Save hyperparameters for each run
-PI3 (Expected): Save model checkpoints
-PI4 (Expected): Compare multiple experiments easily
-PI5 (Advanced): Generate summary tables and charts for ISMIR figures
+Dylan  
+Objective: Track training and evaluation results systematically  
+PI1 (Basic): Log model loss and accuracy per epoch  
+PI2 (Basic): Save hyperparameters for each run  
+PI3 (Expected): Save model checkpoints  
+PI4 (Expected): Compare multiple experiments easily  
+PI5 (Advanced): Generate summary tables and charts for ISMIR figures  
 
 Objective: Develop and Evaluate a Supervised BPM Estimation Model
 PI1 (Basic): Implement baseline neural network architecture in PyTorch (regression)
